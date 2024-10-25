@@ -1,0 +1,7 @@
+tr:has( > th#remove_header) {
+    display: none;
+}
+table {
+    width: 100%;
+    display: table !important;
+}

@@ -1,0 +1,20 @@
+tr:has( > th#remove_header) {
+    display: none;
+}
+table {
+    width: 100%;
+    display: table !important;
+}
+
+
+:root {
+    --vp-home-hero-name-color:#f03a3a;
+    --vp-c-brand-2:#f03a3a;
+    --vp-c-brand-1:#ff3e3e;
+    --vp-button-brand-bg:#c13333;
+    --vp-button-brand-hover-bg:#c133339c;
+}
+
+h2.title{
+    color: var(--vp-home-hero-name-color);
+}
