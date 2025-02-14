@@ -28,58 +28,28 @@ With [Ntfy](https://ntfy.sh), [Telegram](https://web.telegram.org) and [Apprise]
 * Specific price reached
 * Percentage drop of the price
 
-[//]: # (::: danger)
 
-[//]: # ()
-[//]: # (This feature is Deprecated on V3)
+## Build Your Groups
 
-[//]: # ()
-[//]: # (:::)
+Groups are a way to have multiple products, and you would like to be notified if one or multiple products together reach a specific criteria
 
-[//]: # ()
-[//]: # (## Build Your Groups)
 
-[//]: # ()
-[//]: # ()
-[//]: # (Groups are a way to check if multiple products have reached together a specified price.)
+### Example:
+Think of it as you are building a PC with a budget of 700$, so you have the following options.
 
-[//]: # ()
-[//]: # ()
-[//]: # (#### Example:)
+| Product     | Key | current  price |
+|-------------|:---:|:--------------:|
+| Intel i7    | cpu |     300 $      |
+| Intel i5    | cpu |     200 $      |
+| Nvidia 3060 | GPU |     400 $      |
+| Nvidia 4060 | GPU |     500 $      |
 
-[//]: # ()
-[//]: # ()
-[//]: # (Think of it as you are building a PC with a budget of 700$, so you have the following options.)
 
-[//]: # ()
-[//]: # ()
-[//]: # (| Product Name | Key | current crawled price |)
+the system will check what is the lowest of products for each key.
 
-[//]: # ()
-[//]: # (|--------------|:---:|:---------------------:|)
+So, the lowest in "cpu" is i5 and lowest of "GPU" is Nvidia 3060 and the total will be 600 $, so you will be notified.
 
-[//]: # ()
-[//]: # (| Intel i7     | cpu |         300 $         |)
-
-[//]: # ()
-[//]: # (| Intel i5     | cpu |         200 $         |)
-
-[//]: # ()
-[//]: # (| Nvidia 3060  | GPU |         400 $         |)
-
-[//]: # ()
-[//]: # (| Nvidia 4060  | GPU |         500 $         |)
-
-[//]: # ()
-[//]: # ()
-[//]: # (the system will check what is the lowest of products for each key.)
-
-[//]: # ()
-[//]: # (So, the lowest in "cpu" is i5 and lowest of "GPU" is Nvidia 3060 and the total will be 600 $, so you will be notified.)
-
-[//]: # ()
-[//]: # ()
-[//]: # (But as you have noticed, you can have other combinations such as i7 with 3060 or i5 and nvidia 4060 which they both add up to 700$ , but the system will only notify you for the LOWEST combination only, So you need to Check for other avialable options.)
+But as you have noticed, you can have other combinations such as i7 with 3060 or i5 and nvidia 4060 which they both add up to 700$ , but the system will only notify you for the LOWEST combination only, So you need to Check for other avialable options.
 
 ## Check Your Favourite Products From the browser
 
@@ -96,7 +66,7 @@ Extension is available for both [Firefox](https://addons.mozilla.org/en-US/firef
 ### Stores Supported (Extension)
 
 
-| {#remove_header}  |                     |      | 
-|-------------------|:-------------------:|:----:|
-| Amazon |        Argos        | Ebay |
-| Noon              |                     |  |
+| {#remove_header} |       |      | 
+|------------------|:-----:|:----:|
+| Amazon           | Argos | Ebay |
+| Noon             |       |      |

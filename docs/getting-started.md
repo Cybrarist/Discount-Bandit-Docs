@@ -9,4 +9,3 @@ Discount Bandit Doesn't collect any data, it doesn't use any analytics service, 
 
 ## How Many Product Can I Add
 You can add as many products as you want, but by default, Discount Bandit will crawl 60 products per store every 5 minutes. We do NOT recommend changing this settings as you might start seeing messages such "confirm you are not a robot" if you are using it on your local network.
-

@@ -51,6 +51,7 @@ export default defineConfig({
       },
       { text: 'Extension', link: '/extension' },
       { text: 'Environments', link: '/environments' },
+      { text: 'FAQs', link: '/faqs' },
       { text: 'Screenshots', link: '/screenshots' },
     ],
 
@@ -73,6 +74,7 @@ export default defineConfig({
           },
           { text: 'Extension', link: '/extension' },
           { text: 'Environments', link: '/environments' },
+          { text: 'FAQs', link: '/faqs' },
           { text: 'Screenshots', link: '/screenshots' },
 
         ]
@@ -82,7 +84,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cybrarist/discount-bandit' },
       { icon: 'instagram', link: 'https://instagram.com/cybrarist' },
-      { icon: 'discord', link: 'https://discord.gg/EKMJXVVe' }
+      { icon: 'discord', link: 'https://discord.gg/VBMHvH8tuR' }
     ]
   },
   sitemap: {
