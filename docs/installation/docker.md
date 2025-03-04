@@ -42,5 +42,5 @@ docker run -d \
   cybrarist/discount-bandit:latest
 ```
 ::: warning
-Please refer to [Environments](/environments) to get a list of available options.
+Please refer to [Environments](/installation/environments) to get a list of available options.
 :::

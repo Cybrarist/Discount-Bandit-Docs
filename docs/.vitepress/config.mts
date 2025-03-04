@@ -47,12 +47,13 @@ export default defineConfig({
           { text: 'Docker', link: '/installation/docker' },
           { text: 'Portainer', link: '/installation/portainer' },
           { text: 'Docker Compose', link: '/installation/docker-compose' },
+          { text: 'Environments', link: '/installation/environments' },
         ]
       },
       { text: 'Extension', link: '/extension' },
-      { text: 'Environments', link: '/environments' },
       { text: 'FAQs', link: '/faqs' },
-      { text: 'Screenshots', link: '/screenshots' },
+      { text: 'Contribution', link: '/contribution' },
+
     ],
 
     sidebar: [
@@ -69,13 +70,13 @@ export default defineConfig({
               { text: 'Docker' , link: '/installation/docker' },
               { text: 'Portainer' , link: '/installation/portainer' },
               { text: 'Docker Compose' , link: '/installation/docker-compose' },
+              { text: 'Environments', link: '/installation/environments' },
 
             ]
           },
           { text: 'Extension', link: '/extension' },
-          { text: 'Environments', link: '/environments' },
           { text: 'FAQs', link: '/faqs' },
-          { text: 'Screenshots', link: '/screenshots' },
+          { text: 'Contribution', link: '/contribution' },
 
         ]
       }

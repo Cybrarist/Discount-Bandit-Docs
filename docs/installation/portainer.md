@@ -19,7 +19,7 @@ then you need to map the port
 After that you can fill the environments with the values needed.
 
 ::: warning
-Please refer to [Environments](/environments) to get a list of available options.
+Please refer to [Environments](/installation/environments) to get a list of available options.
 :::
 
 Finally, you can deploy and it should be running on port 8080 (per image)
@@ -69,7 +69,7 @@ Choose "Web Editor" option and paste the content of the file
 Change the values of the environment variable to anything you want.
 
 ::: warning
-Please refer to [Environments](/environments) to get a list of available options.
+Please refer to [Environments](/installation/environments) to get a list of available options.
 :::
 
 Deploy the Stack.

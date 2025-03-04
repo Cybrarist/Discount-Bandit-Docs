@@ -20,7 +20,7 @@ you need to create the volumes in your host machine first, otherwise docker will
 and you won't be able to keep them if you re-pulled the image.
 
 ::: warning
-Please refer to [Environments](/environments) to get a list of available options.
+Please refer to [Environments](/installation/environments) to get a list of available options.
 :::
 
 ::: tip
