@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Discount Bandit",
   description: "Track Your Favourite Products Across Multiple Stores | Self Hosted",
+  lang: 'en-US',
+  cleanUrls:true,
   markdown: {
     image: {
       // image lazy loading is disabled by default
