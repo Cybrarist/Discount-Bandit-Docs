@@ -17,7 +17,7 @@ Few things to know before starting:
 - Use logging for each step of crawling, so it's easier to trace the error (check Amazon.php for example)
 - Typically, you won't need to edit The steps in red, but feel free if you were facing a specific settings of that store.
 
-![discount-process.svg](public/images/discount-process.svg)
+![discount-process.svg](/images/discount-process.svg)
 
 ### Steps:
 
