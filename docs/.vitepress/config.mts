@@ -34,7 +34,7 @@ export default defineConfig({
     ],
   themeConfig: {
     siteTitle: "Discount Bandit",
-    logo : "/images/bandit.png",
+    logo : "/bandit.png",
     search: {
       provider: 'local'
     },

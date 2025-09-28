@@ -6,7 +6,7 @@ hero:
   name: "Discount Bandit"
   text: "Multi-User Self Hosted price tracker for Stores like Amazon, Aliexpress, along with custom stores"
   image:
-    src: /images/bandit.png
+    src: /bandit.png
     alt: Discount Bandit
   tagline: Lorem ipsum...
   actions:
