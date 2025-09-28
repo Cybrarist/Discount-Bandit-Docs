@@ -4,18 +4,22 @@ layout: home
 
 hero:
   name: "Discount Bandit"
-  text: "Self Hosted product tracker for Amazon, Walmart And many more"
+  text: "Multi-User Self Hosted price tracker for Stores like Amazon, Aliexpress, along with custom stores"
+  image:
+    src: /images/bandit.png
+    alt: Discount Bandit
+  tagline: Lorem ipsum...
   actions:
     - theme: brand
       text: Getting Started
       link: /getting-started
 
 features:
-  - title: Track Products
-    details: Track Prices History, Changes, Stock Availability
+  - title: Track Products' prices
+    details: Track Prices History, Changes, Stock Availability, add your own extra cost
   - title: Notifications
-    details: Get Notified when a Product matches your criteria (price, stock, price drop)
-  - title: Better with Companion
-    details: Using the open source extension, you can add and track products from the store page dirctly.
+    details: Create multiple notification settings for the link, and get notified whenever a criteria is matched.
+  - title: Better with Companion (Coming Soon)
+    details: With extension, you can add and track products from the store page directly.
 ---
 

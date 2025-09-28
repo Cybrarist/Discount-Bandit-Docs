@@ -36,35 +36,28 @@ you need to add the image name, and you can remove the volumes if not required.
 
 the updated docker compose file should look like the following
 ```yaml
-s
-networks:
-  discount-bandit:
-    driver: bridge
-
-volumes:
-  discount-bandit:
-  discount-bandit-logs:
-
 services:
   discount-bandit:
-    image: cybrarist/discount-bandit:v4
-    #    build:
-    #      context: . 
+    image: cybrarist/discount-bandit:v3.1.2-amd64
     ports:
       - 8080:80
-    networks:
-      - discount-bandit
-    volumes:
-      - ./database/database.sqlite:/app/database/sqlite
-      - ./logs:/logs
     environment:
       DB_CONNECTION: sqlite
+      NTFY_CHANNEL_ID: ""
+      TELEGRAM_BOT_TOKEN: ""
+      TELEGRAM_CHANNEL_ID: ""
+      DEFAULT_USER: "test"
+      DEFAULT_EMAIL: "docker@test.com"
+      DEFAULT_PASSWORD: "thisismypassword"
       APP_TIMEZONE: UTC
-      THEME_COLOR: Red
+      RSS_FEED: 1
+      TOP_NAVIGATION: 0
+      DISABLE_TOP_BAR: 0
+      BREADCRUMBS: 1
+      SPA: 1
+      DISABLE_AUTH: 1
+      THEME_COLOR: Stone
       APP_URL: "http://localhost:8080"
-      ASSET_URL: "http://localhost:8080"
-      EXCHANGE_RATE_API_KEY:
-      CRON: "*/5 * * * *"
 
 ```
 
@@ -92,5 +85,10 @@ you won't see mysql image if you choose sqlite
 ::: tip
 The website will be available on port 8080 by default.
 
-then you can setup the admin account.
+The default user username 
+```docker@test.com```
+
+The default password 
+```thisismypassword```
+
 :::

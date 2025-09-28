@@ -34,7 +34,7 @@ export default defineConfig({
     ],
   themeConfig: {
     siteTitle: "Discount Bandit",
-    logo : "images/bandit.png",
+    logo : "/images/bandit.png",
     search: {
       provider: 'local'
     },
@@ -52,9 +52,21 @@ export default defineConfig({
           { text: 'Environments', link: '/installation/environments' },
         ]
       },
-      { text: 'Extension', link: '/extension' },
       { text: 'FAQs', link: '/faqs' },
-      { text: 'Contribution', link: '/contribution' },
+      { text: 'v3', items: [
+              { text: 'Features', link: '/v3/features' },
+              {
+                  text: "Installation",
+                  items: [
+                      { text: 'Directly On OS ', link: '/v3/installation/operating_system' },
+                      { text: 'Docker', link: '/v3/installation/docker' },
+                      { text: 'Portainer', link: '/v3/installation/portainer' },
+                      { text: 'Docker Compose', link: '/v3/installation/docker-compose' },
+                      { text: 'Environments', link: '/v3/installation/environments' },
+                  ]
+              },
+              { text: 'FAQs', link: '/v3/faqs' },
+      ] },
 
     ],
 
@@ -76,10 +88,24 @@ export default defineConfig({
 
             ]
           },
-          { text: 'Extension', link: '/extension' },
           { text: 'FAQs', link: '/faqs' },
-          { text: 'Contribution', link: '/contribution' },
+        { text: 'v3',
+            collapsed: true ,
+            items: [
 
+                { text: 'Features', link: '/v3/features' },
+                {
+                    text: "Installation",
+                    items: [
+                        { text: 'Directly On OS ', link: '/v3/installation/operating_system' },
+                        { text: 'Docker', link: '/v3/installation/docker' },
+                        { text: 'Portainer', link: '/v3/installation/portainer' },
+                        { text: 'Docker Compose', link: '/v3/installation/docker-compose' },
+                        { text: 'Environments', link: '/v3/installation/environments' },
+                    ]
+                },
+                { text: 'FAQs', link: '/v3/faqs' },
+            ] },
         ]
       }
     ],

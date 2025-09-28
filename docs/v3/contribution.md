@@ -3,7 +3,7 @@
 
 ::: warning
 if you want to implement a new feature or new store, please reach out first,
-as i or someone else might be working on it already.
+as i or someone else might be working on it already.:::
 :::
 
 

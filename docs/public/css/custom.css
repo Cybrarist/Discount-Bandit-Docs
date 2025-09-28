@@ -18,3 +18,8 @@ table {
 h2.title{
     color: var(--vp-home-hero-name-color);
 }
+
+.VPHero .text {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}

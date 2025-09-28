@@ -1,12 +1,12 @@
 import {
   useMediaQuery
-} from "./chunk-REMO2DH2.js";
+} from "./chunk-Q2AYPHVK.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-LW4I4DCF.js";
+} from "./chunk-QAXAIFA7.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "/Users/fawzy/WebstormProjects/Discount-Bandit-Docs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
