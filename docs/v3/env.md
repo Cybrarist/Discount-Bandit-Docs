@@ -9,7 +9,7 @@ With Discount Bandit, You can track the prices of your products across multiple 
 With [Ntfy](https://ntfy.sh) you will be able to receive notifications depending on the criteria that you set for each product.
 
 ### Available Criteria
-![Available Options](/public/website/available_options.png)
+![Available Options](/images/website/available_options.png)
 * Only Official Sellers
 * Stock Availability
 * If Product is the lowest within X days

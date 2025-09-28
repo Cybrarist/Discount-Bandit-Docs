@@ -15,11 +15,11 @@ You can add as many products as you want, but by default, Discount Bandit will c
 
 |                          {#remove_header}                           |                                                                    |
 |:-------------------------------------------------------------------:|:------------------------------------------------------------------:|
-|                ![Signup](public/website/Signup.png)                 |         ![User Settings](public/website/User_Settings.png)         | 
-|        ![Create Product](public/website/Create_Product.png)         | ![Add_Link_to_Product.png](public/website/Add_Link_to_Product.png) |
-|      ![Single_Product.png](public/website/Single_Product.png)       |        ![Product_List.png](public/website/Product_List.png)        |
-|          ![Links_List.png](public/website/Links_List.png)           |   ![New_Custom_Store.png](public/website/New_Custom_Store.png)     |
-| ![Custom_Store_Result.png](public/website/Custom_Store_Result.png)  |   |
+|                ![Signup](/images/website/Signup.png)                 |         ![User Settings](/images/website/User_Settings.png)         | 
+|        ![Create Product](/images/website/Create_Product.png)         | ![Add_Link_to_Product.png](/images/website/Add_Link_to_Product.png) |
+|      ![Single_Product.png](/images/website/Single_Product.png)       |        ![Product_List.png](/images/website/Product_List.png)        |
+|          ![Links_List.png](/images/website/Links_List.png)           |   ![New_Custom_Store.png](/images/website/New_Custom_Store.png)     |
+| ![Custom_Store_Result.png](/images/website/Custom_Store_Result.png)  |   |
 
 
 

@@ -16,7 +16,7 @@ Pay Attention To the Image Name
 
 Choose "Web Editor" option and paste the content of the file
 
-![Available Options](/public/images/web-editor.png)
+![Available Options](/images/web-editor.png)
 
 Change the values of the variable to anything you want.
 
@@ -24,7 +24,7 @@ Deploy the Stack.
 
 Go To "Containers" and you should be able to find the following
 
-![Available Options](/public/images/containers.png)
+![Available Options](/images/containers.png)
 
 ::: tip
 The website will be available on port 8080 by default.

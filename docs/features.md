@@ -27,7 +27,7 @@ With [Ntfy](https://ntfy.sh), [Telegram](https://web.telegram.org) and  [Gotify]
 
 ### Available Rules
 
-![Available Options](public/website/available_options.png)
+![Available Options](/images/website/available_options.png)
 * Price Desired
 * Percentage Drop
 * Product is the lowest within X days
@@ -45,4 +45,4 @@ you can also set maximum links allowed per user to add.
 
 ### Currency Conversion
 if you set a default currency for your user from the settings, the application will consider all prices to be in that currency.
-this requires an API key that you can see in [environment](/environments)
+this requires an API key that you can see in [environment](/installation/environments)

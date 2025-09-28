@@ -20,7 +20,7 @@ With Discount Bandit, You can track the prices of your products across multiple 
 With [Ntfy](https://ntfy.sh), [Telegram](https://web.telegram.org) and [Apprise](https://github.com/caronc/apprise) you will be able to receive notifications depending on the criteria that you set for each product.
 
 ### Available Rules
-![Available Options](public/website/available_options.png)
+![Available Options](/images/website/available_options.png)
 * Only Official Sellers
 * Stock Availability
 * If Product is the lowest within X days

@@ -10,11 +10,11 @@
 ### Method 1: Pull the image directly
 you can pull the image directly in portainer
 
-![Portainer add image](/public/images/portainer_add.png)
+![Portainer add image](/images/portainer_add.png)
 
 then you need to map the port
 
-![Portainer add image](/public/images/portainer_port.png)
+![Portainer add image](/images/portainer_port.png)
 
 After that you can fill the environments with the values needed.
 
@@ -63,8 +63,8 @@ services:
 
 Choose "Web Editor" option and paste the content of the file
 
-![Available Options](/public/images/web-editor.png)
-![Available Options](/public/images/web-editor.png)
+![Available Options](/images/web-editor.png)
+![Available Options](/images/web-editor.png)
 
 Change the values of the environment variable to anything you want.
 
@@ -76,7 +76,7 @@ Deploy the Stack.
 
 Go To "Containers" and you should be able to find the following
 
-![Available Options](/public/images/containers.png)
+![Available Options](/images/containers.png)
 
 ::: warning
 you won't see mysql image if you choose sqlite
