@@ -8,7 +8,7 @@ hero:
   image:
     src: /bandit.png
     alt: Discount Bandit
-  tagline: Lorem ipsum...
+#  tagline: Lorem ipsum...
   actions:
     - theme: brand
       text: Getting Started
