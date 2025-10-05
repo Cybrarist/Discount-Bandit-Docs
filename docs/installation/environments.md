@@ -3,7 +3,10 @@
 ## List of available environments and possible values.
 
 ## APP_KEY
+::: danger   
 this is very important, you need to generate a new key from [here](https://laravel-encryption-key-generator.vercel.app/)
+:::
+
 ```dotenv
 APP_KEY=
 ```
