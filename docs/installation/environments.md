@@ -2,6 +2,12 @@
 
 ## List of available environments and possible values.
 
+## APP_KEY
+this is very important, you need to generate a new key from [here](https://laravel-encryption-key-generator.vercel.app/)
+```dotenv
+APP_KEY=
+```
+
 ## DB_CONNECTION
 By Default the value is `sqlite` if you are planning to use `MySQL` then you need to pass the following
 ```dotenv
