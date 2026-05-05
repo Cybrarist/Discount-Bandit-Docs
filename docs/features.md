@@ -17,6 +17,21 @@
 And you can add unlimited custom stores, just paste a product url and the system will fetch it's information.
 if it requires extra steps then it must be done manually, and feel free to open a PR for it.
 
+## Community Stores Support
+
+you can use the main [github repo](https://github.com/Cybrarist/Discount-Bandit-Community-Stores) or even create your own and share it with your friends.
+
+you can add the store directly from the app, with the following steps:
+
+![community_store.png](images/website/community_store.png)
+![community_popup.png](images/website/community_popup.png)
+
+also feel free to contribute with new stores.
+
+::: tip
+You can add the store to your instance then export it from the store page. this will easeup the process of adding a new store to the repo
+:::
+
 ## Track Products Across Multiple Stores.
 
 With Discount Bandit, You can track the prices of your products across multiple stores at the same time to understand the trend of the product and when is the right time to buy.
