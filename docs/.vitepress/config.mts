@@ -4,8 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Discount Bandit",
   description: "Track Your Favourite Products Across Multiple Stores | Self Hosted",
-  lang: 'en-US',
-  cleanUrls:true,
+  cleanUrls: true,
   markdown: {
     image: {
       // image lazy loading is disabled by default
@@ -32,84 +31,136 @@ export default defineConfig({
       gtag('config', 'G-5J19D8NYPY');`
     ]
     ],
-  themeConfig: {
-    siteTitle: "Discount Bandit",
-    logo : "/bandit.png",
-    search: {
-      provider: 'local'
-    },
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started' },
-      { text: 'Features', link: '/features' },
-      {
-        text: "Installation",
-        items: [
-          { text: 'Directly On OS ', link: '/installation/operating_system' },
-          { text: 'Docker', link: '/installation/docker' },
-          { text: 'Portainer', link: '/installation/portainer' },
-          { text: 'Docker Compose', link: '/installation/docker-compose' },
-          { text: 'Environments', link: '/installation/environments' },
-        ]
-      },
-      { text: 'FAQs', link: '/faqs' },
-      { text: 'v3', items: [
-              { text: 'Features', link: '/v3/features' },
-              {
-                  text: "Installation",
-                  items: [
-                      { text: 'Directly On OS ', link: '/v3/installation/operating_system' },
-                      { text: 'Docker', link: '/v3/installation/docker' },
-                      { text: 'Portainer', link: '/v3/installation/portainer' },
-                      { text: 'Docker Compose', link: '/v3/installation/docker-compose' },
-                      { text: 'Environments', link: '/v3/installation/environments' },
-                  ]
-              },
-              { text: 'FAQs', link: '/v3/faqs' },
-      ] },
 
-    ],
-
-    sidebar: [
-      {
-        text: 'Introduction',
-        items: [
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
           { text: 'Getting Started', link: '/getting-started' },
           { text: 'Features', link: '/features' },
           {
             text: "Installation",
-            collapsed: true ,
             items: [
-              { text: 'Operating System', link: "/installation/operating_system" },
-              { text: 'Docker' , link: '/installation/docker' },
-              { text: 'Portainer' , link: '/installation/portainer' },
-              { text: 'Docker Compose' , link: '/installation/docker-compose' },
+              { text: 'Directly On OS ', link: '/installation/operating_system' },
+              { text: 'Docker', link: '/installation/docker' },
+              { text: 'Portainer', link: '/installation/portainer' },
+              { text: 'Docker Compose', link: '/installation/docker-compose' },
               { text: 'Environments', link: '/installation/environments' },
-
             ]
           },
           { text: 'FAQs', link: '/faqs' },
-        { text: 'v3',
-            collapsed: true ,
+          { text: 'v3', items: [
+                  { text: 'Features', link: '/v3/features' },
+                  {
+                      text: "Installation",
+                      items: [
+                          { text: 'Directly On OS ', link: '/v3/installation/operating_system' },
+                          { text: 'Docker', link: '/v3/installation/docker' },
+                          { text: 'Portainer', link: '/v3/installation/portainer' },
+                          { text: 'Docker Compose', link: '/v3/installation/docker-compose' },
+                          { text: 'Environments', link: '/v3/installation/environments' },
+                      ]
+                  },
+                  { text: 'FAQs', link: '/v3/faqs' },
+          ] },
+        ],
+        sidebar: [
+          {
+            text: 'Introduction',
             items: [
-
-                { text: 'Features', link: '/v3/features' },
-                {
-                    text: "Installation",
-                    items: [
-                        { text: 'Directly On OS ', link: '/v3/installation/operating_system' },
-                        { text: 'Docker', link: '/v3/installation/docker' },
-                        { text: 'Portainer', link: '/v3/installation/portainer' },
-                        { text: 'Docker Compose', link: '/v3/installation/docker-compose' },
-                        { text: 'Environments', link: '/v3/installation/environments' },
-                    ]
-                },
-                { text: 'FAQs', link: '/v3/faqs' },
-            ] },
-        ]
+              { text: 'Getting Started', link: '/getting-started' },
+              { text: 'Features', link: '/features' },
+              {
+                text: "Installation",
+                collapsed: true,
+                items: [
+                  { text: 'Operating System', link: "/installation/operating_system" },
+                  { text: 'Docker', link: '/installation/docker' },
+                  { text: 'Portainer', link: '/installation/portainer' },
+                  { text: 'Docker Compose', link: '/installation/docker-compose' },
+                  { text: 'Environments', link: '/installation/environments' },
+                ]
+              },
+              { text: 'FAQs', link: '/faqs' },
+              { text: 'v3',
+                  collapsed: true,
+                  items: [
+                      { text: 'Features', link: '/v3/features' },
+                      {
+                          text: "Installation",
+                          items: [
+                              { text: 'Directly On OS ', link: '/v3/installation/operating_system' },
+                              { text: 'Docker', link: '/v3/installation/docker' },
+                              { text: 'Portainer', link: '/v3/installation/portainer' },
+                              { text: 'Docker Compose', link: '/v3/installation/docker-compose' },
+                              { text: 'Environments', link: '/v3/installation/environments' },
+                          ]
+                      },
+                      { text: 'FAQs', link: '/v3/faqs' },
+                  ]
+              },
+            ]
+          }
+        ],
       }
-    ],
+    },
 
+    ar: {
+      label: 'العربية',
+      lang: 'ar',
+      dir: 'rtl',
+      link: '/ar/',
+      themeConfig: {
+        nav: [
+          { text: 'الرئيسية', link: '/ar/' },
+          { text: 'البدء', link: '/ar/getting-started' },
+          { text: 'المميزات', link: '/ar/features' },
+          {
+            text: 'التثبيت',
+            items: [
+              { text: 'نظام التشغيل', link: '/ar/installation/operating_system' },
+              { text: 'Docker', link: '/ar/installation/docker' },
+              { text: 'Portainer', link: '/ar/installation/portainer' },
+              { text: 'Docker Compose', link: '/ar/installation/docker-compose' },
+              { text: 'البيئات', link: '/ar/installation/environments' },
+            ]
+          },
+          { text: 'الأسئلة الشائعة', link: '/ar/faqs' },
+        ],
+        sidebar: [
+          {
+            text: 'مقدمة',
+            items: [
+              { text: 'البدء', link: '/ar/getting-started' },
+              { text: 'المميزات', link: '/ar/features' },
+              {
+                text: 'التثبيت',
+                collapsed: true,
+                items: [
+                  { text: 'نظام التشغيل', link: '/ar/installation/operating_system' },
+                  { text: 'Docker', link: '/ar/installation/docker' },
+                  { text: 'Portainer', link: '/ar/installation/portainer' },
+                  { text: 'Docker Compose', link: '/ar/installation/docker-compose' },
+                  { text: 'البيئات', link: '/ar/installation/environments' },
+                ]
+              },
+              { text: 'الأسئلة الشائعة', link: '/ar/faqs' },
+            ]
+          }
+        ],
+      }
+    },
+  },
+
+  themeConfig: {
+    siteTitle: "Discount Bandit",
+    logo: "/bandit.png",
+    search: {
+      provider: 'local'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cybrarist/discount-bandit' },
       { icon: 'instagram', link: 'https://instagram.com/cybrarist' },

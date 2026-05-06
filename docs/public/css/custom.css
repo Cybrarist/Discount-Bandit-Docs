@@ -23,3 +23,76 @@ h2.title{
     font-size: 1.25rem;
     line-height: 1.4;
 }
+
+html[dir="rtl"] body,
+html[dir="rtl"] .VPApp {
+    direction: rtl;
+}
+
+html[dir="rtl"] .VPNavBar,
+html[dir="rtl"] .VPSidebar,
+html[dir="rtl"] .VPDoc,
+html[dir="rtl"] .vp-doc,
+html[dir="rtl"] .VPLocalNav {
+    text-align: right;
+}
+
+html[dir="rtl"] .vp-doc p,
+html[dir="rtl"] .vp-doc h1,
+html[dir="rtl"] .vp-doc h2,
+html[dir="rtl"] .vp-doc h3,
+html[dir="rtl"] .vp-doc h4,
+html[dir="rtl"] .vp-doc h5,
+html[dir="rtl"] .vp-doc h6,
+html[dir="rtl"] .vp-doc li,
+html[dir="rtl"] .VPFeature .title,
+html[dir="rtl"] .VPFeature .details,
+html[dir="rtl"] .VPMenuLink .link,
+html[dir="rtl"] .VPSidebarItem .text {
+    text-align: right;
+}
+
+html[dir="rtl"] .VPHero.has-image .container,
+html[dir="rtl"] .VPHero.has-image .main,
+html[dir="rtl"] .VPHero.has-image .tagline {
+    text-align: right;
+}
+
+html[dir="rtl"] .VPHero.has-image .heading,
+html[dir="rtl"] .VPHero.has-image .actions {
+    align-items: flex-end;
+}
+
+html[dir="rtl"] .VPHero.has-image .image,
+html[dir="rtl"] .VPHero.has-image .image-container {
+    align-items: center;
+    text-align: center;
+}
+
+html[dir="rtl"] .VPHero.has-image .image-container {
+    margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+    html[dir="rtl"] .VPHero.has-image .image-container {
+        transform: translate(32px, -32px);
+    }
+}
+
+html[dir="rtl"] .VPHero.has-image .name,
+html[dir="rtl"] .VPHero.has-image .text {
+    margin: 0 0 0 auto;
+}
+
+html[dir="rtl"] .vp-doc blockquote {
+    border-left: 0;
+    border-right: 2px solid var(--vp-c-divider);
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+html[dir="rtl"] .vp-doc ul,
+html[dir="rtl"] .vp-doc ol {
+    padding-left: 0;
+    padding-right: 1.25rem;
+}
