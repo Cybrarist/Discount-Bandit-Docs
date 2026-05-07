@@ -48,6 +48,7 @@ export default defineConfig({
               { text: 'Docker', link: '/installation/docker' },
               { text: 'Portainer', link: '/installation/portainer' },
               { text: 'Docker Compose', link: '/installation/docker-compose' },
+              { text: 'Kubernetes with HelmForge', link: '/installation/kubernetes-helmforge' },
               { text: 'Environments', link: '/installation/environments' },
             ]
           },
@@ -81,6 +82,7 @@ export default defineConfig({
                   { text: 'Docker', link: '/installation/docker' },
                   { text: 'Portainer', link: '/installation/portainer' },
                   { text: 'Docker Compose', link: '/installation/docker-compose' },
+                  { text: 'Kubernetes with HelmForge', link: '/installation/kubernetes-helmforge' },
                   { text: 'Environments', link: '/installation/environments' },
                 ]
               },
