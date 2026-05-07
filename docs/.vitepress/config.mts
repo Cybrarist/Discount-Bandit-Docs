@@ -117,6 +117,10 @@ export default defineConfig({
         outline: {
           label: 'في هذه الصفحة'
         },
+        docFooter: {
+          prev: 'الصفحة السابقة',
+          next: 'الصفحة التالية'
+        },
         nav: [
           { text: 'الرئيسية', link: '/ar/' },
           { text: 'البداية', link: '/ar/getting-started' },
@@ -137,8 +141,8 @@ export default defineConfig({
           {
             text: 'مقدمة',
             items: [
-              { text: 'البدء', link: '/ar/getting-started' },
-              { text: 'المميزات', link: '/ar/features' },
+              { text: 'البداية', link: '/ar/getting-started' },
+              { text: 'الميزات', link: '/ar/features' },
               {
                 text: 'التثبيت',
                 collapsed: true,
