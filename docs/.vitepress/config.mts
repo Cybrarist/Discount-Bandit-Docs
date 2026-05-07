@@ -114,10 +114,13 @@ export default defineConfig({
       dir: 'rtl',
       link: '/ar/',
       themeConfig: {
+        outline: {
+          label: 'في هذه الصفحة'
+        },
         nav: [
           { text: 'الرئيسية', link: '/ar/' },
-          { text: 'البدء', link: '/ar/getting-started' },
-          { text: 'المميزات', link: '/ar/features' },
+          { text: 'البداية', link: '/ar/getting-started' },
+          { text: 'الميزات', link: '/ar/features' },
           {
             text: 'التثبيت',
             items: [
