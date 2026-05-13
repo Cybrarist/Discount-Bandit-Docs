@@ -14,7 +14,7 @@
 
 ## طريقة التثبيت
 
-اذهب إلى [GitHub](https://github.com/Cybrarist/Discount-Bandit)، ثم انسخ المستودع إلى جهازك وضعه في المجلد الذي يناسبك.
+اذهب إلى [GitHub](https://github.com/Cybrarist/Discount-Bandit)، ثم انسخ الكود البرمجي إلى جهازك وضعه في المجلد الذي يناسبك.
 
 بعد ذلك، شغّل أمر تثبيت الحزم باستخدام Composer من داخل المجلد:
 

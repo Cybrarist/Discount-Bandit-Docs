@@ -63,6 +63,10 @@ html[dir="rtl"]  {
         margin-right:5px;
     }
 
+    .VPLocalNavOutlineDropdown .icon {
+        transform: rotate(0);
+    }
+
     .VPDoc .content {
         border-right: 1px solid var(--vp-c-divider);
         border-left: 0;
