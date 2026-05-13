@@ -6,7 +6,7 @@
 
 ## طريقة التثبيت
 
-قم أولًا بسحب الصورة التي تريدها من مستودع Docker الخاص بـ [Discount Bandit](https://hub.docker.com/r/cybrarist/discount-bandit).
+قم أولًا بسحب الملف الذي تريده من مستودع Docker الخاص بـ [Discount Bandit](https://hub.docker.com/r/cybrarist/discount-bandit).
 
 ```bash
 docker pull cybrarist/discount-bandit:v4
