@@ -24,75 +24,52 @@ h2.title{
     line-height: 1.4;
 }
 
-html[dir="rtl"] body,
-html[dir="rtl"] .VPApp {
-    direction: rtl;
+.VPFeature .icon {
+    display: inline-flex;
+    align-self: flex-start;
+    background: transparent;
+    margin-bottom: 14px;
+    padding: 0;
+    color: var(--vp-c-brand-1);
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-html[dir="rtl"] .VPNavBar,
-html[dir="rtl"] .VPSidebar,
-html[dir="rtl"] .VPDoc,
-html[dir="rtl"] .vp-doc,
-html[dir="rtl"] .VPLocalNav {
-    text-align: right;
+.VPFeature .icon svg {
+    display: block;
+    width: 22px;
+    height: 22px;
 }
 
-html[dir="rtl"] .vp-doc p,
-html[dir="rtl"] .vp-doc h1,
-html[dir="rtl"] .vp-doc h2,
-html[dir="rtl"] .vp-doc h3,
-html[dir="rtl"] .vp-doc h4,
-html[dir="rtl"] .vp-doc h5,
-html[dir="rtl"] .vp-doc h6,
-html[dir="rtl"] .vp-doc li,
-html[dir="rtl"] .VPFeature .title,
-html[dir="rtl"] .VPFeature .details,
-html[dir="rtl"] .VPMenuLink .link,
-html[dir="rtl"] .VPSidebarItem .text {
-    text-align: right;
+.VPFeature .box > .VPImage {
+    margin-bottom: 14px;
 }
 
-html[dir="rtl"] .VPHero.has-image .container,
-html[dir="rtl"] .VPHero.has-image .main,
-html[dir="rtl"] .VPHero.has-image .tagline {
-    text-align: right;
+html.dark .VPFeature .icon {
+    color: var(--vp-c-white);
 }
 
-html[dir="rtl"] .VPHero.has-image .heading,
-html[dir="rtl"] .VPHero.has-image .actions {
-    align-items: flex-end;
-}
 
-html[dir="rtl"] .VPHero.has-image .image,
-html[dir="rtl"] .VPHero.has-image .image-container {
-    align-items: center;
-    text-align: center;
-}
 
-html[dir="rtl"] .VPHero.has-image .image-container {
-    margin: 0 auto;
-}
+html[dir="rtl"]  {
 
-@media (min-width: 960px) {
-    html[dir="rtl"] .VPHero.has-image .image-container {
-        transform: translate(32px, -32px);
+    .content-body{
+        padding-right: 102vw;
     }
-}
+    .VPNavBarTitle a.title {
+        flex-direction: row-reverse;
+    }
+    .vpi-chevron-down{
+        margin-right:5px;
+    }
 
-html[dir="rtl"] .VPHero.has-image .name,
-html[dir="rtl"] .VPHero.has-image .text {
-    margin: 0 0 0 auto;
-}
-
-html[dir="rtl"] .vp-doc blockquote {
-    border-left: 0;
-    border-right: 2px solid var(--vp-c-divider);
-    padding-left: 0;
-    padding-right: 16px;
-}
-
-html[dir="rtl"] .vp-doc ul,
-html[dir="rtl"] .vp-doc ol {
-    padding-left: 0;
-    padding-right: 1.25rem;
+    .VPDoc .content {
+        border-right: 1px solid var(--vp-c-divider);
+        border-left: 0;
+        padding-right: 10px;
+    }
+    .outline-marker{
+        left: unset;
+        right: -1px;
+    }
 }
