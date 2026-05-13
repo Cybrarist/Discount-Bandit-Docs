@@ -114,6 +114,12 @@ export default defineConfig({
       dir: 'rtl',
       link: '/ar/',
       themeConfig: {
+        notFound: {
+          title: 'الصفحة غير موجودة',
+          quote: 'عذرًا، ما لقينا الصفحة التي تبحث عنها.',
+          linkLabel: 'العودة إلى الرئيسية',
+          linkText: 'العودة إلى الرئيسية'
+        },
         outline: {
           label: 'في هذه الصفحة'
         },
@@ -166,7 +172,35 @@ export default defineConfig({
     siteTitle: "Discount Bandit",
     logo: "/bandit.png",
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          ar: {
+            translations: {
+              button: {
+                buttonText: 'بحث',
+                buttonAriaLabel: 'بحث'
+              },
+              modal: {
+                searchBox: {
+                  clearButtonTitle: 'مسح',
+                  clearButtonAriaLabel: 'مسح البحث',
+                  closeButtonText: 'إغلاق',
+                  closeButtonAriaLabel: 'إغلاق',
+                  placeholderText: 'ابحث في التوثيق',
+                  searchInputLabel: 'بحث'
+                },
+                footer: {
+                  selectText: 'اختيار',
+                  navigateText: 'تنقّل',
+                  closeText: 'إغلاق'
+                },
+                noResultsText: 'لا توجد نتائج'
+              }
+            }
+          }
+        }
+      }
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cybrarist/discount-bandit' },
